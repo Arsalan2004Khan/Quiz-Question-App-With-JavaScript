@@ -1,0 +1,64 @@
+body {
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+h3 {
+    font-family: varela round;
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+image {
+    width: 400px;
+}
+
+#iResult {
+    height: 40px;
+    width: 120px;
+    border: 2px solid blue;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin: auto;
+}
+
+.tickcss {
+    background-image: url("images/correct.png");
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: right;
+    align-items: center;
+    display: flex;
+    font-size: 22px;
+    font-family: varela round;
+}
+
+.crosscss {
+    background-image: url("images/wrong.jpeg");
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: right;
+    align-items: center;
+    display: flex;
+    font-size: 22px;
+    font-family: varela round;
+}
+
+input{
+    width: 30px;
+    height: 30px;
+    transform: translateY(10px);
+}
+
+label{
+    font-size: 25px;
+    font-family: varela round;
+}
+
+.cMainContainer {
+    font-size: 30px;
+    font-family: varela round;
+    margin-top: 250px;
+}
